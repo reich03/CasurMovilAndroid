@@ -11,7 +11,7 @@ import type {Node} from 'react';
 import WebView from 'react-native-webview';
 import OneSignal from 'react-native-onesignal';
 OneSignal.setLogLevel(6, 0);
-OneSignal.setAppId('YOUR-ONESIGNAL-APP-ID');
+OneSignal.setAppId('f1aa1ba7-f1fd-4088-aacd-51c4801458d8');
 //END OneSignal Init Code
 
 //Prompt for push on iOS
