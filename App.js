@@ -7,7 +7,6 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
 import WebView from 'react-native-webview';
 import OneSignal from 'react-native-onesignal';
 OneSignal.setLogLevel(6, 0);
@@ -40,8 +39,8 @@ OneSignal.setNotificationOpenedHandler(notification => {
   console.log('OneSignal: notification opened:', notification);
 });
 
-const App: () => Node = () => {
-  return <WebView source={{uri: 'https://casurdemo.sasoftco.com/'}} />;
+const App = () => {
+  return <WebView source={{uri: 'http://sedeselectronicas.com/'}} />;
 };
 
 export default App;

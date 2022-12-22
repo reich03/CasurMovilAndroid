@@ -1,6 +1,6 @@
 {
-  "name": "casurapp",
-  "version": "0.0.1",
+  "name": "casurapp2",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
