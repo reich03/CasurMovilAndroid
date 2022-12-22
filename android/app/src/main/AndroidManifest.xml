@@ -2,8 +2,10 @@
   package="com.casurapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 
     <application
+      android:usesCleartextTraffic="true"
       android:name=".MainApplication"
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
