@@ -40,7 +40,7 @@ OneSignal.setNotificationOpenedHandler(notification => {
 });
 
 const App = () => {
-  return <WebView source={{uri: 'http://sedeselectronicas.com/'}} />;
+  return <WebView source={{uri: 'https://www.casur.gov.co/'}} />;
 };
 
 export default App;
